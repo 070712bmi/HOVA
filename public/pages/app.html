@@ -1,0 +1,20 @@
+<div class="text-center">
+	<h1>Get Shortened</h1>
+	<div class="row">
+		<div class="col-sm-6 col-sm-offset-3">
+			<form class="form">
+				<div class="form-group">
+					<input class="form-control" ng-model="original" type="text" placeholder="ej: http://example.com">
+				</div>
+				<button class="btn btn-primary" type="submit"> GO! <i class="glyphicon glyphicon-chevron-right"></i></button>
+			</form>
+		</div>
+	</div>
+	<div class="row" style="margin-top:15px;">
+		<div class="col-sm-6 col-sm-offset-3">
+			<div class="alert alert-info" ng-if="message">
+				<strong>Congrats!</strong> <a href="">http://urloriginalejemplo.com</a>
+			</div>
+		</div>
+	</div>
+</div>
